@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:padding="18dp"
+              android:gravity="center_vertical"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/iv_icon"/>
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是***********"/>
+
+</LinearLayout>

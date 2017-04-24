@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it212.collegelife.activity.UserIcon">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="请选择一张图片作为头像"/>
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/em_smiley_add_btn_select"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_ok"
+        android:background="@drawable/base_btn"
+        android:layout_below="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="确定"
+        android:enabled="false"
+        android:textColor="@drawable/btn_ok_select"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

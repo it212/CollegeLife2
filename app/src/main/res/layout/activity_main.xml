@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.it212.collegelife.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--导航-->
+    <RadioGroup
+        android:id="@+id/rg_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#44000000"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/Bottom_rbtn_style"
+            android:drawableTop="@drawable/rbtn_drawable_select"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_life"
+            style="@style/Bottom_rbtn_style"
+            android:drawableTop="@drawable/rbtn_drawable_select"
+            android:text="圈子" />
+
+        <RadioButton
+            android:id="@+id/rb_service"
+            style="@style/Bottom_rbtn_style"
+            android:drawableTop="@drawable/rbtn_drawable_select"
+            android:text="服务" />
+
+        <RadioButton
+            android:id="@+id/rb_myself"
+            style="@style/Bottom_rbtn_style"
+            android:drawableTop="@drawable/rbtn_drawable_select"
+            android:text="我的" />
+
+    </RadioGroup>
+</LinearLayout>
+

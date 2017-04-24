@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:paddingLeft="30dp"
+              android:paddingRight="30dp">
+
+    <TextView
+        android:id="@+id/tv_img"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="从图库选取"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <TextView
+        android:id="@+id/tv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="拍照选取"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"/>
+
+</LinearLayout>

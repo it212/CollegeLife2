@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CollegeLife</string>
+    <string name="app_key">wQKPaMBiKsEWXy9Itwk5xHiPMmrztC3k</string>
+    <array name="title">
+        <item>消息</item>
+        <item>联系人</item>
+        <item>我的</item>
+    </array>
+</resources>
